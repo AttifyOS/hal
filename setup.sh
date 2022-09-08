@@ -32,7 +32,7 @@ install() {
   sudo snap install $APM_TMP_DIR/hal_v3.3.0-169-gd427c070be_amd64.snap --dangerous
   rm $APM_TMP_DIR/hal_v3.3.0-169-gd427c070be_amd64.snap
   echo "This package adds the command hal."
-  echo"Run:"
+  echo "Run:"
   echo " - hal for the CLI"
   echo " - hal -g for the GUI"
 }
